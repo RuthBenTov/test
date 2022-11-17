@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(224, 245, 238);
+}
+
+.main-gallery div{
+    width: 33%;
+    height: auto;
+    display: inline-block;
+    border: 1px solid rgb(201, 193, 193) ;
+    flex-wrap: wrap;
+    background-color: antiquewhite;
+
+        img{
+            width: 100%;
+            height: auto;
+        }
+}
