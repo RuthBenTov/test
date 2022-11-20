@@ -4,10 +4,10 @@ const imgLink = ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJTWugjM
 "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJTWugjM_bSMMSkHMwhzPVDWqupbTvwpJUFA&usqp=CAU"   
     ]
     
-    let rut = document.createElement("h1")
-    console.log(rut);
-    rut.textContent ="hiosh"
-    document.body.appendChild(rut)
+    // let rut = document.createElement("h1")
+    // console.log(rut);
+    // rut.textContent ="hiosh"
+    // document.body.appendChild(rut)
     
     
     imgLink.forEach( img => {

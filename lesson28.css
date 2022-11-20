@@ -1,16 +1,42 @@
+*{
+  padding: 0%;
+  margin: 0;
+}
 body {
-  background-color: rgb(224, 245, 238);
+  background-color: rgba(215, 215, 215, 0.498);
 }
 
-.main-gallery div {
-  width: 33%;
+nav h1{
+  color: rgb(42, 42, 42);
+  background-color: white;
+  height: 50px;
+  text-align: center;
+  padding-top: 15px;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.644);
+
+}
+
+.main-gallery{
+  position: relative;
+  left: 15%;
+  width: 70%;
+}
+
+.main-gallery .leftGallery {
+  width: 50%;
   height: auto;
-  display: inline-block;
   border: 1px solid rgb(201, 193, 193);
   flex-wrap: wrap;
-  background-color: antiquewhite;
+  float: left;
+}
+
+.main-gallery .rightGallery {
+  float: right;
+  width: 49%;
+  height: auto;
+  border: 1px solid rgb(201, 193, 193);
+  flex-wrap: wrap;
 }
 .main-gallery div img {
   width: 100%;
-  height: auto;
 }
